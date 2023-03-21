@@ -1,0 +1,28 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`SequraWidget > it doesnt render or make api calls if total with tax is not set with a number 1`] = `"<!--v-if-->"`;
+
+exports[`SequraWidget > mount component 1`] = `
+"<div class=\\"sequra__widget\\">
+  <div class=\\"sequra__widget__heading\\">
+    <p>Págalo en</p><button class=\\"sequra__widget__modal__button\\" type=\\"button\\">más info</button>
+  </div>
+  <div class=\\"sequra__widget__content\\"><select name=\\"credit-agreement\\" id=\\"sequra__credit__agreement__selector\\"></select></div>
+  <div class=\\"sequra__widget__modal__overlay\\" style=\\"display: none;\\">
+    <div class=\\"sequra__widget__modal\\" role=\\"dialog\\" aria-labelledby=\\"sequra-widget__label\\" aria-hidden=\\"true\\">
+      <div class=\\"sequra__widget__modal__header\\">
+        <p id=\\"sequra-widget__label\\">Fracciona tu pago</p>
+      </div>
+      <div class=\\"sequra__widget__modal__body\\">
+        <ol>
+          <li>Eliges \\"Fracciona tu pago\\" al realizar tu pedido y pagas solo la primera cuota</li>
+          <li>Recibes tu pedido</li>
+          <li>El resto de pagos se cargarán automáticamente a tu tarjeta</li>
+        </ol>
+        <p>¡Así de simple!</p>
+        <p> Además, en el importe mostrado ya se incluye la cuota única mensual de /mes por lo que no tendrás ninguna sorpresa. </p>
+      </div>
+    </div>
+  </div>
+</div>"
+`;
