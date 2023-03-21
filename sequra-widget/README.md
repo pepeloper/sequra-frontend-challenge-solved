@@ -10,7 +10,7 @@ This allows the `SequraWidget` component to be compatible with almost [any frame
 
 It also includes unit tests covering the basic widget functionality.
 
-## Set up and run.
+## Set up and run
 
 Make sure you already have the Sequra mocked API environment located under the `api` folder up and running.
 
@@ -25,7 +25,7 @@ You can run the tests by using `npm run test` or `npm run coverage` to output a 
 
 Use `npm run build` to build the project. Output files will be located in the dist folder.
 
-## How to use
+## How to use
 
 Load the sequra-widget script. This should be uploaded to a package manager like npm, and we could use a cdn to load the widget. In this case being a local prototype we can reference the relative path on our system and place it and the end of the `body` tag in our html main file.
 
