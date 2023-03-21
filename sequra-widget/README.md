@@ -29,7 +29,7 @@ Use `npm run build` to build the project. Output files will be located in the di
 
 Load the sequra-widget script. This should be uploaded to a package manager like npm, and we could use a cdn to load the widget. In this case being a local prototype we can reference the relative path on our system and place it and the end of the `body` tag in our html main file.
 
-`<script type="module" src="./dist/sequra-widget.js"></script>`
+`<script src="./dist/sequra-widget.js"></script>`
 
 Now we are ready to use the sequra-widget component:
 
